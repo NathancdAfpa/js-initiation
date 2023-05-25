@@ -1,0 +1,48 @@
+
+  
+
+#message-container {
+    margin-top: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    display: inline-block;
+}
+  
+  .success {
+    background-color: #c9f7c5;
+    color: #4caf50;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .error {
+    background-color: #f1c8c8;
+    color: #b7514a;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  /* Augmenter la taille de la police */
+  #message-container, #email-field, #verify-button {
+    font-size: 50px;
+    border-radius: 10px;
+  }
+
+  #verify-button {
+    padding-inline: 50px;
+    padding-block: 25px;
+    border: none;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.156);
+  }
+
+  #email-field {
+    height: 100px;
+  }
+
+  label {
+    font-size: 100px;
+  }
+  
+
+  
